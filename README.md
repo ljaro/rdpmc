@@ -13,4 +13,4 @@ ld instr23.o -o instr23
 ./instr23
 echo $?
 ```
-output 0 means that perf counters are not enabled, use `perf stat ./instr23 && echo $?`
+output 0 means that perf counters are not enabled, use `perf stat ./instr23`
