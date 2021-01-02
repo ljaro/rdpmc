@@ -1,6 +1,7 @@
 # rdpmc
 
-this example code returns uops count
+# instr23.asm
+instr23.asm example code returns uops count
 
 Compile with NASM:
 ```
