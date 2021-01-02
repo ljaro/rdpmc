@@ -4,8 +4,8 @@
 ; nasm -felf64 instr23.asm
 ; ld instr23.o -o instr23
 ;
-; run ./instr23 and check output echo $?
-; output 0 means that perf counters are not enabled, use perf stat ./instr23 && echo $?
+; run ./instr2 and check output echo $?
+; output 0 means that perf counters are not enabled, use perf stat ./instr2 && echo $?
 
 segment .text
 global _start
