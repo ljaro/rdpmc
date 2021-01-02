@@ -5,7 +5,7 @@
 ; ld instr23.o -o instr23
 ;
 ; run ./instr23 and check output echo $?
-; output 0 means that perf counters are not enabled, use perf stat ./instr23 && echo $?
+; output 0 means that perf counters are not enabled, use perf stat ./instr23
 
 segment .text
 global _start
